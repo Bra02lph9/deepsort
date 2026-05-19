@@ -1,0 +1,10 @@
+ultralytics
+opencv-python
+torch
+torchvision
+deep-sort-realtime
+numpy
+pandas
+tqdm
+customtkinter
+pillow 

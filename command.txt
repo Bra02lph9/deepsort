@@ -1,0 +1,4 @@
+python src/yolo_deepsort.py --video videos/test.mp4 --output outputs/yolo_result.mp4
+python src/maskrcnn_deepsort.py --video videos/test.mp4 --output outputs/maskrcnn_result.mp4
+python src/benchmark.py --video videos/test.mp4 --output_dir outputs/benchmark
+python src/app_interface.py
