@@ -202,9 +202,10 @@ The system was tested on:
 
 # Performance Comparison
 
-method               |  video,          |  status  | total_time_seconds | output_video
-YOLOv8 + DeepSORT    |  videos/test.mp4 |  success | 167.52             | outputs/benchmark/yolo_result.mp4
-Mask R-CNN + DeepSORT| videos/test.mp4  |  success  | 1343.17            | outputs/benchmark/maskrcnn_result.mp4
+| Method                | Video            | Status  | Total Time (Seconds) | Output Video                          |
+|-----------------------|------------------|----------|----------------------|---------------------------------------|
+| YOLOv8 + DeepSORT     | videos/test.mp4  | success | 167.52               | outputs/benchmark/yolo_result.mp4     |
+| Mask R-CNN + DeepSORT | videos/test.mp4  | success | 1343.17              | outputs/benchmark/maskrcnn_result.mp4 |
 
 ---
 
